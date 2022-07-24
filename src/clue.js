@@ -181,7 +181,6 @@ function pickMystery() {
     room: selectRandom(roomsArray),
     suspect: selectRandom(suspectsArray),
   };
-  console.log(mystery);
   return mystery;
 }
 
